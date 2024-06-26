@@ -1,11 +1,19 @@
 .footerWrapper {
     gap: 2rem;
+    bottom: 0;
     display: flex;
     padding: 0.5rem;
     flex-direction: row;
     font-size: xx-large;
     border: 3px solid darkorange;
-    bottom: 0;
+
+    @media(min-width: 1440px){
+        width: 100%;
+        display: flex;
+        max-width: 1280px;
+        flex-direction: row;
+        justify-content: center;
+    } 
 }
 .footerProjectName {
     width: 100%;
