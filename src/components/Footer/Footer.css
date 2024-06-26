@@ -1,0 +1,13 @@
+.footerWrapper {
+    gap: 2rem;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    font-size: xx-large;
+    border: 3px solid darkorange;
+    bottom: 0;
+}
+.footerProjectName {
+    width: 100%;
+    color: darkorange;
+}

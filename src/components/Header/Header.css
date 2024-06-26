@@ -1,0 +1,20 @@
+.headerWrapper {
+    gap: 2rem;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    font-size: xx-large;
+    border: 3px solid darkorange;
+
+    @media(min-width: 1440px){
+        width: 100%;
+        display: flex;
+        max-width: 1280px;
+        flex-direction: column;
+        justify-content: center;
+    } 
+}
+.headerProjectName {
+    width: 100%;
+    color: darkorange;   
+}

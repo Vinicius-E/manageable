@@ -1,0 +1,30 @@
+.homeContent {
+    width: 90%;
+    height: 330px;
+    display: flex;    
+    padding: 4rem;
+    font-size: x-large;
+    justify-content: center;
+}
+.homeGrid {
+    display: grid;
+    grid-gap: 10%;    
+    grid-template-rows: repeat(2, 45%);    
+    grid-template-columns: repeat(2, 45%);
+}   
+.homeGridOption {
+    padding: 3rem;
+    display: flex;
+    font-weight: 600;    
+    color: darkorange;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid darkorange;
+}
+
+.homeGridOption:hover {
+    color: black;
+    cursor: pointer;
+    background-color: darkorange;
+}
