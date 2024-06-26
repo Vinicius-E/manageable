@@ -10,7 +10,7 @@ const HomePage = () => {
     }
 
     return (
-        <body className="homeContent"> 
+        <div className="homeContent"> 
             <div className="homeGrid"> 
                 <div className="homeGridOption" onClick={goToMonthlyStatement}>
                     MONTHLY STATEMENT
@@ -25,7 +25,7 @@ const HomePage = () => {
                     MANAGEABLE CONTENT 4
                 </div>                            
             </div> 
-        </body>
+        </div>
     )
 }
 
