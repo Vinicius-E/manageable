@@ -9,14 +9,13 @@
 .monthlyStatementContent {
     gap: 3rem;
     display: flex;
-    align-items: center;
     flex-direction: row;
 }
 
 .monthlyStatementRevenues,
 .monthlyStatementExpenses {
     width: 500px;
-    height: 500px;
+    height: fit-content;
     border: 2px solid darkorange;
 }
 
@@ -106,6 +105,7 @@ h3 {
 }
 
 .monthlyStatementTotalWrapper {
+    margin-top: 55%;
     display: flex;
     flex-direction: row;
 }
