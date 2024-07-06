@@ -1,0 +1,111 @@
+.monthlyStatementWrapper {
+    gap: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.monthlyStatementContent {
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.monthlyStatementRevenues,
+.monthlyStatementExpenses {
+    width: 500px;
+    height: 500px;
+    border: 2px solid darkorange;
+}
+
+.monthlyStatementSubTitle {
+    margin: 0;
+    font-weight: 800;
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid darkorange;
+}
+
+h3 {
+    font-weight: 300;
+    color: darkorange;
+}
+
+.monthlyStatementRevenuesWrapper,
+.monthlyStatementExpensesWrapper {    
+    height: 92%;
+    /* background-color: #806a50; */
+    display: flex;
+    color: darkOrange;   
+    flex-direction: column; 
+    background-color: black;
+}
+
+.goBackBtn {
+    padding: 0.5rem;
+    width: fit-content;
+    color: darkorange;
+    background-color: black;
+    border: 1px solid darkorange;
+}
+
+.goBackBtn:hover {
+    color: black;
+    cursor: pointer;
+    background-color: darkorange;
+}
+
+.monthlyStatementContentHeader {
+    display: flex;
+    font-weight: 600;    
+    font-size: 1.25rem;
+    height: fit-content;
+    flex-direction: row;
+}
+
+.monthlyStatementContentBody {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;    
+    height: fit-content;
+    flex-direction: row;    
+}
+
+.monthlyStatementContentDescription {
+    width: 60%;
+    height: fit-content;
+    border: 1px solid darkorange;
+}
+
+.monthlyStatementContentValue {
+    width: 20%;
+    height: fit-content;
+    border: 1px solid darkorange;
+}
+
+.monthlyStatementContentDate {
+    width: 20%;
+    height: fit-content;
+    border: 1px solid darkorange;
+}
+
+.monthlyStatementContentTotalDescription {
+    width: 60%;
+    font-weight: 600;
+    height: fit-content;
+    border: 1px solid darkorange;    
+}
+
+.monthlyStatementContentTotalValue {
+    width: 40%;
+    font-weight: 600;
+    height: fit-content;
+    border: 1px solid darkorange;
+}
+
+.monthlyStatementTotalWrapper {
+    display: flex;
+    flex-direction: row;
+}
